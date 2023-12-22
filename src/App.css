@@ -1,0 +1,18 @@
+.grid {
+	display: grid;
+	width: fit-content;
+	gap: 2rem;
+	place-items: center;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.center {
+	height: 100%;
+	display: grid;
+	place-content: center;
+}
+
+.post {
+	position: fixed;
+	inset: 0;
+}

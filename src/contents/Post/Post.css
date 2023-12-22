@@ -1,0 +1,24 @@
+.post .imager img {
+	width: 700px;
+	height: 600px;
+	object-fit: cover;
+	object-position: center;
+	position: relative;
+}
+
+.post {
+	display: grid;
+
+	place-items: center;
+}
+
+.post::before {
+	position: absolute;
+	inset: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+	content: " ";
+}
+
+.title {
+	text-align: center;
+}
